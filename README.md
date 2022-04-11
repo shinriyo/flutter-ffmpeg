@@ -103,7 +103,7 @@ possible to enable other `flutter_ffmpeg` packages using the following steps.
     ```
 ##### 2.1.2 iOS (Flutter >= 2.x)
 
-- Edit `ios/Podfile`, add the following block **before** `target 'Runner do` and specify the package name in
+- Edit `ios/Podfile`, add the following block **before** `target 'Runner' do` and specify the package name in
   `<package name>` section :
 
     ```
@@ -143,7 +143,7 @@ possible to enable other `flutter_ffmpeg` packages using the following steps.
 
 ##### 2.1.3 iOS (Flutter >= 1.20.x) && (Flutter < 2.x)
 
-- Edit `ios/Podfile`, add the following block **before** `target 'Runner do` and specify the package name in
+- Edit `ios/Podfile`, add the following block **before** `target 'Runner' do` and specify the package name in
 `<package name>` section :
 
     ```
